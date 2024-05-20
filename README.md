@@ -34,7 +34,7 @@ CS2_Faceit_Win_Probability_Predictor is a project aimed at predicting the probab
 
 2. Data Visualization:
 
-&emsp; - Generate plots to understand the data. This functionality is implemented in a file named plots.py).
+&emsp; - Generate plots to understand the data. This functionality is implemented in a file named plots.py.
 
 &emsp; - Example:
 &emsp; `python data_visualization.py`
