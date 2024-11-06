@@ -16,12 +16,19 @@ CS2_Faceit_Win_Probability_Predictor is a project aimed at predicting the probab
 
 1. Clone the repository:
 
-`git clone https://github.com/yourusername/CS2_Faceit_Win_Probability_Predictor.git` \
+`git clone https://github.com/KaZak9u/CS2_Faceit_Win_Probability_Predictor.git` \
 `cd CS2_Faceit_Win_Probability_Predictor`
 
 2. Install the necessary dependencies:
 
 `pip install -r requirements.txt`
+
+3. Retrieve API key and create .env file containing it
+
+- Go to https://developers.faceit.com/ website and log in/create account.
+- Go to app studio and create new project.
+- After creating, go to "API KEYS" tab and create new API key.
+- In this project create .env file and insert API_KEY=*YOUR API KEY*
 
 ### Usage
 
@@ -60,6 +67,16 @@ CS2_Faceit_Win_Probability_Predictor is a project aimed at predicting the probab
 - model_training.py: Script for training and evaluating classifiers with grid search for parameter optimization.
 - main.py: Script for predicting the win probability of a given match using a pre-trained XGBoost model.
 - requirements.txt: List of required Python packages.
+## Visualization
+![](plots/var_correlation_map.png)  
+Variable correlation map
+![](plots/Score_histogram.png)
+Distribution of target value
+![](plots/cm_xgb.png)
+Confusion matrix of XGBoost
+![](plots/results_plot.png)
+Results of different models in accuracy
+
 ## Credits
 Developed by [Kacper Zakrzewski]
 
