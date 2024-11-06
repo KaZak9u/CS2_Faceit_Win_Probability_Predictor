@@ -69,12 +69,19 @@ CS2_Faceit_Win_Probability_Predictor is a project aimed at predicting the probab
 - requirements.txt: List of required Python packages.
 ## Visualization
 ![](plots/var_correlation_map.png)  
+
 Variable correlation map
+
 ![](plots/Score_histogram.png)
+
 Distribution of target value
+
 ![](plots/cm_xgb.png)
+
 Confusion matrix of XGBoost
+
 ![](plots/results_plot.png)
+
 Results of different models in accuracy
 
 ## Credits
